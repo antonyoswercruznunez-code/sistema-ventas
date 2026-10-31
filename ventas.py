@@ -1,5 +1,5 @@
 def calcular_total(precio, cantidad):
-    return precio + cantidad  # ¡El error intencional: es un '+' en lugar de un '*'!
+    return precio * cantidad  # Corregido
 
 if __name__ == "__main__":
     precio = 25
